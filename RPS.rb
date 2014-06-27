@@ -10,3 +10,10 @@ end while player_choise == nil
 computer_choise = rand(3)
 puts "Computer choise " + choises[computer_choise]
 puts "Player " + result_table[computer_choise][player_choise]
+
+
+# {
+# 	"R" => "S",
+# 	"S" => "P",
+# 	"P" => "R",
+# }
